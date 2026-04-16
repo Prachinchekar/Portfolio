@@ -1,0 +1,14 @@
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    @apply bg-black text-white;
+}
+
+/* Glass effect */
+.glass {
+    @apply bg-white/10 backdrop-blur-lg border-white/20;
+}
