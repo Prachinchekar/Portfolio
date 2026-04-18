@@ -92,12 +92,12 @@ export default function Hero() {
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.2 }}
-        className="mt-8 flex flex-col sm:flex-row gap-4 w-full sm:w-auto"
+        className="mt-10 flex flex-col sm:flex-row gap-4 w-full max-w-xs sm:max-w-none mx-auto"
       >
         <MagneticButton>
           <a
             href="#projects"
-            className="w-full sm:w-auto text-center px-6 py-3 bg-gradient-to-r from-purple-500 to-blue-500 rounded-lg font-semibold hover:scale-105 transition shadow-lg"
+            className="block w-full text-center px-6 py-3 bg-gradient-to-r from-purple-500 to-blue-500 rounded-lg font-semibold hover:scale-105 transition shadow-lg"
           >
             View Projects
           </a>
@@ -106,7 +106,7 @@ export default function Hero() {
         <MagneticButton>
           <a
             href="#contact"
-            className="w-full sm:w-auto text-center px-6 py-3 border border-white/30 rounded-lg hover:bg-white hover:text-black transition"
+            className="block w-full text-center px-6 py-3 border border-white/30 rounded-lg hover:bg-white hover:text-black transition"
           >
             Contact Me
           </a>

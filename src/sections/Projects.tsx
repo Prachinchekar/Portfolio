@@ -5,6 +5,7 @@ import gsap from "gsap";
 import Image from "next/image";
 import { title } from "process";
 import { useEffect, useRef } from "react";
+import { FaGithub } from "react-icons/fa";
 
 const projects = [
   {
@@ -23,6 +24,7 @@ const projects = [
     title: "Portfolio Website",
     desc: "Animated portfolio with GSAP",
     tech: ["Next.js", "Tailwind"],
+    github: "https://github.com/Prachinchekar/Portfolio"
   },
 ];
 

@@ -14,6 +14,12 @@ export default function MagneticButton({ children }: any) {
         ref.current!.style.transform = `translate(${x * 0.2}px, ${y * 0.2}px)`;
     };
 
+    const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
+
+    if (isMobile) {
+        return <div>{ children }</div>
+    }
+
     const reset = () => {
         ref.current!.style.transform = `translate(0px, 0px)`;
     };
