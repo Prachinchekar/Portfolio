@@ -70,7 +70,7 @@ export default function Hero() {
       {/* ✍️ Typing */}
       <p className="mt-4 text-sm sm:text-base md:text-xl text-gray-300 max-w-md md:max-w-2xl leading-relaxed min-h-[40px]">
         {text}
-        <span className="animate-pulse ml-1">|</span>
+        <span className="animate-pulse ml-1"></span>
       </p>
 
       {/* 🔥 Tech stack */}
